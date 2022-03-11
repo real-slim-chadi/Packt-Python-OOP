@@ -1,0 +1,52 @@
+to get the description of the class Point, we hop on to the terminal and type help(class):
+
+to get to the interactive python shell:
+python -i 2-\ point.py
+
+in the interactive python shell type:
+>>> help (Point)
+
+we get:
+Help on class Point in module __main__:
+
+class Point(builtins.object)
+ |  Point(x: float = 0, y: float = 0) -> None
+ |  
+ |  Generates a point in a Eucledian plane
+ |  Point(x: float = 0, y: float = 0) -> None
+ |  Methods defined here:
+ |  Generates a point in a Eucledian plane
+ |  __init__(self, x: float = 0, y: float = 0) -> None
+ |      Initializes the point to the coordinates (x,y)
+ |      
+ |      Args:self, x: float = 0, y: float = 0) -> None
+ |          x (float, optional): Defaults to 0.s (x,y)
+ |          y (float, optional): Defaults to 0.
+ |      Args:
+ |  calculate_distance(self, p: 'Point') -> float
+ |      calculates distance between this Point and p
+ |      
+ |      Args:_distance(self, p: 'Point') -> float
+ |          p (Point): second point to compare withp
+ |      
+ |      Returns:
+ |          float: Eucledian distance to p Pointith
+ |      
+ |  move(self, x: float, y: float) -> None
+ |      move the point to coordinates (x,,y)
+ |      
+ |      Args:
+ |          x (float): new x
+ |          y (float): new y
+ |  
+ |  reset(self) -> None
+ |      resets point to (0,0)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |  
+ |  __weakref__
+ |      list of weak references to the object (if defined)
