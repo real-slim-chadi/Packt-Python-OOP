@@ -12,3 +12,10 @@ class Contact(object):
             f"{self.name!r}, {self.email!r}"
             f")"
         )
+class Supplier(Contact):
+    def order (self, order: "order") ->None :
+        print("if it was a real system" 
+        f" we would order {order} from {self.name}")
+
+
+print ("called from: ",__name__)
