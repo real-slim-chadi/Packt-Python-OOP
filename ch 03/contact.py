@@ -1,3 +1,6 @@
+from __future__ import annotations
+
+class ContactList(list['Contact'])
 class Contact(object):
     all_contacts: list("Contact")=[]
 
